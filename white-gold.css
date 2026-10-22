@@ -1,0 +1,72 @@
+/* SHADOWS FC — White & Gold edition. Additive theme: preserves all application behavior. */
+:root{color-scheme:light;--bg:#f8f7f2;--surface:#fffefa;--surface2:#f0ede4;--text:#1c1b17;--muted:#746e61;--line:#ded8cb;--pink:#b39352;--pink-light:#d3ba81}
+body{background:var(--bg);color:var(--text)}
+.site-header{background:#fffefa;border-color:var(--line)}
+.wordmark,.site-header nav a,.language-toggle{color:var(--text)}
+.wordmark small{color:#817b6f}
+.brand-fc,.section-number,.back-top>span:last-child{color:var(--pink)}
+.language-toggle{background:#f3efe5;border-color:var(--line)}
+.hero{background:#f4f0e7}
+.hero:before{opacity:.14;filter:grayscale(1) sepia(.5)}
+.hero:after{background:linear-gradient(90deg,#f8f7f2f5 0%,#f8f7f2b9 53%,#f8f7f260 100%)}
+.hero .eyebrow,.hero-description,.hero-bottom{color:#5b554c}
+.hero h1{color:#1c1b17;text-shadow:none}
+.hero h1 span{color:#a18348}
+.hero .button{box-shadow:none}
+.button-pink{background:#b39352;color:#fff}
+.button-pink:hover{background:#95773f}
+.hero-match{background:#fffef8ed;border:1px solid #d8cba9;border-top:3px solid #b39352;box-shadow:0 20px 55px #30261820;backdrop-filter:blur(10px);color:#201d19}
+.hero-match .eyebrow,.match-meta,.scoreboard-venue{color:#6e675c}
+.result-badge{background:#efe8d9;border-color:#d9cdb7;color:#5e4c2b}
+.hero-team strong,.hero-score{color:#211e19}
+.hero-team small{color:#746d62}
+.win-note{background:#f2eddf;color:#745a2b}
+.hero-scorers{border-color:#ded8cb;color:#514b42}
+.ticker{background:#b39352;color:#fff}
+.season-summary{background:#eee9de;color:#211e19}
+.summary-intro .eyebrow,.stat-number.pink{color:#947239}
+.summary-intro>p:last-child,.stat-label,.stat-sub{color:#665e52}
+.summary-stats .stat{border-color:#cfc4b1}
+.section-heading h2,.summary-intro h2{color:#1c1b17}
+.section-heading .eyebrow,.section-aside,.results-hint,.squad-note{color:#766e62}
+.filter{color:#786f61}
+.filter.active{color:#8b6c36;border-color:#b39352;background:#efe9dc}
+.match-list{border-color:var(--line)}
+.match-row,.match-row:first-child{background:#fffefa;border-color:#ded8cb;color:#211e19}
+.match-row:hover,.match-row:first-child:hover{background:#f3ecdf;border-color:#b39352}
+.match-date small,.match-row .match-outcome{color:#6d6559}
+.spotlight{background:#eee9df;border-color:#d5cbb8;color:#1c1b17}
+.spotlight-art:before{background:#b39352}
+.spotlight-art:after{opacity:.25}
+.art-label{color:#302514}
+.art-number{color:#69502b44}
+.spotlight-copy .eyebrow,.mvp-name,.mvp-facts b{color:#95743d}
+.spotlight-copy>p:not(.eyebrow),.mvp-facts small{color:#60584d}
+.top-scorer-card{background:#eee9de;border-color:#d4c9b7}
+.top-scorer-card:after{border-color:#b3935228;box-shadow:none}
+.top-scorer-card>.eyebrow,.top-scorer-number,.scorer-table tbody tr:nth-child(-n+2) td:last-child{color:#947239}
+.top-scorer-card h3,.top-scorer-card>p{color:#2c2821}
+.scorer-table th,.scorer-table td:first-child{color:#6e675a}
+.scorer-table td{border-color:#ded8cb}
+.scorer-table tbody tr:nth-child(-n+2){background:#f0eadf}
+.scorer-name:after{background:#b39352}
+.scorer-initials{background:#e7ddc9;color:#5d4828}
+.player-card{background:#fffefa;border-color:#ded8cb;color:#1c1b17}
+.player-card:hover{border-color:#b39352}
+.player-card-art,.player-card:nth-child(4n+2) .player-card-art{background:linear-gradient(140deg,#e6ddca,#f5f0e7)}
+.player-card-art:before{background:#b3935217}
+.player-number,.player-card:nth-child(4n+2) .player-number{color:#a38b60}
+.player-info{border-color:#ded8cb}
+.player-info>span{color:#947239}
+.club-section{background:#211f1b;color:#f8f4e9}
+.club-section:before{opacity:.12}
+.club-section:after{background:#211f1bcc}
+.club-section h2,.club-section h2 span{color:#f4e8d1}
+.club-copy>p,.club-details>span{color:#d0c5b4}
+.site-footer{background:#f8f7f2;color:#211e19}
+.site-footer>span,.site-footer .back-top{color:#71695c}
+dialog{background:#fffefa;color:#211e19;border-color:#b39352}
+.dialog-score,.profile-number{color:#947239}
+dialog::backdrop{background:#15120b99}
+:focus-visible{outline-color:#b39352}
+@media(max-width:700px){.hero{background:#f4f0e7}.hero:after{background:#f8f7f2d9}.hero-match{background:#fffefa}.season-summary{margin-top:20px}}
