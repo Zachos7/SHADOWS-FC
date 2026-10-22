@@ -6,6 +6,7 @@
   --bg:#f9f8f3;--surface:#fffefa;--surface2:#f0ebdf;--text:#1e1c18;
   --muted:#80776a;--line:#e5ddce;--pink:#b49656;--pink-light:#dfcc9c;
   --gold:#b49656;--gold-dark:#846934;--cream:#f5f0e5;
+  --scoreboard:#fffdfa;--scoreboard-ink:#211e19;--scoreboard-muted:#817769;--scoreboard-line:#e4daca;--scoreboard-pink:#b49656;
   --display:'Shadows Condensed','Arial Narrow',Impact,sans-serif;
 }
 html,body{background:var(--bg);color:var(--text)}
@@ -48,9 +49,10 @@ body{font-family:Arial,Helvetica,sans-serif}
 .hero-team small{color:#8c826f}
 .hero-score{color:#211e18;text-shadow:none}
 .hero-score i{color:var(--gold)}
-.hero-scorers{border-color:#e5dccc;color:#716858}
-.hero-scorers strong{color:#302920}
-.hero-scorers b{color:var(--gold-dark)}
+.hero-scorers{background:#25231e;border:0;color:#e9dcbe}
+.hero-scorers strong{color:#fffdf7}
+.hero-scorers b{color:#e5c882}
+.hero-scorers>span{color:#cdb681}
 .win-note{color:#66532e;background:#f2ead7;border-color:#e1d3b5}
 .ticker{background:#25231e;color:#ead6a7}
 .ticker span{color:#bda063}
@@ -75,6 +77,8 @@ body{font-family:Arial,Helvetica,sans-serif}
 .match-date strong,.match-team,.match-score{color:#28251d}
 .match-date small,.match-team small,.match-outcome,.match-card-footer{color:#817665}
 .match-outcome.win,.match-row.win .match-outcome{color:var(--gold-dark)}
+.outcome-tag.win{background:#ad8a48;color:#fff;border-color:#ad8a48}
+.match-card-footer .row-arrow{color:var(--gold-dark)}
 .mini-emblem,.mini-crest,.match-crest{background:#fffefa;border-color:#d8c9a7}
 .match-card{background:#fffefa;color:#26221d}
 .match-card .match-score,.score-value{color:#29251d}
