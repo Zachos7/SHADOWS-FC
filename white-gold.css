@@ -175,3 +175,43 @@ dialog h2{color:#252019}
   .top-scorer-card{padding:25px}
   .partner-tile{min-height:94px}
 }
+
+/* Integrated season archive controls: accessible white and gold colors. */
+.form-strip{border-color:#ded3bf}.form-strip>span{color:#82683f}.form-strip>small{color:#857865}
+.form-result{background:#fffdf8;border-color:#d8c8ac;color:#76684e}
+.form-result.win{background:#b39556;color:#fff;border-color:#b39556}
+.form-result.draw{background:#ded8ca;color:#433a2c;border-color:#c7bda9}
+.archive-controls{background:#f1ebdf;border-color:#e0d3bc}
+.archive-field>span{color:#675944;font-weight:700}
+.archive-field input,.archive-field select{background:#fffefa;color:#2b251c;color-scheme:light;border-color:#d5c8b1}
+.archive-field input::placeholder{color:#8f8475}
+.view-switch{border-color:#dcccb0}
+.view-switch button{color:#75664c}
+.view-switch button[aria-pressed="true"]{background:#b39556;color:#fff}
+#results-status{color:#776b59}.reset-filters{color:#8c6e35}
+.selection-stats{background:#fffefa;border-color:#e0d6c5}
+.selection-stats>div{border-color:#e6ddcf}
+.selection-stats strong{color:#26221c}.selection-stats small{color:#817463}
+.empty-results{background:#fffdf7;border-color:#cfbf9f;color:#5d5040}
+.archive-pagination button{background:#fffdf8;border-color:#c9b793;color:#665333}
+.archive-pagination button:disabled{background:#f0ece5;border-color:#dcd4c8;color:#9b9386}
+#page-status{color:#746955}
+.scorer-scope{color:#796f61;border-color:#dfd5c6}
+.scorer-scope a,.scorer-link:hover,.scorer-chevron{color:#977b40}
+.scorer-link{color:#332b1f}
+#scoring-leaders{background:#fffefa;border-color:#ded2bc;color:#282119}
+#scoring-leaders h3{color:#2e281e}
+.hero-open-match{background:#343027;color:#f9efd8;border-color:#5c4b31}
+.hero-open-match:hover{background:#4a3e2a}
+.scoring-history button{background:#fffefa;border-color:#ded2bc;color:#342c21}
+.scoring-history button:hover{border-color:#a98a4d;background:#faf4e8}
+.scoring-history small{color:#887965}.history-score{color:#2b261d}.history-goals{color:#957637}
+.dialog-scorer-link{color:#2c251d}.dialog-scorer-link span{color:#aa8745}
+.dialog-scorer-link:hover{color:#977b40}
+.match-navigation{border-color:#e0d4c0}
+.match-navigation button{color:#94753a}
+.match-navigation button:disabled{color:#aaa092}.match-navigation>span{color:#827766}
+.share-detail>button{background:#f3ede0;border-color:#cbb58d;color:#372d1f}
+#share-status{color:#907038}
+.share-fallback{color:#776950}
+.share-fallback input{background:#fffefa;color:#2b261d;border-color:#c8b68d}
